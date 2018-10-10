@@ -63,13 +63,16 @@ So we chose open source Ethereum based Blockchain for our project, that mostly s
 The basic idea is pretty simple: it's a main Blockchain the consists Sub-Chains of smart-contracts 
 between participants of supply chain.
 
-let's dive dipper in to the this process.
-First of all we have factory who marks their product with DNA-Sample, then factory supplying further.
-It's the main point of our idea. We creating time stamp smart contract about this deal then we add some
-important information about product (like DNA-Sample hash) if contract was successful than we push in 
-Blockchain. If it wasn't, Product would be send back with obvious consequences. In this way the last 
-end-consumer, but also everyone in the supply chain, know everything about origins of a product. Hence 
-we avoid unnecessary DNA-Sample verifications which is very expensive, but it is still possible.
+###Let's dive dipper in to the this process.
+First communication we meet between farmer and cotton factory. Cotton factory has to check if the raw material
+meets all requirements, for that purpose factory uses DNA sample with randomly chosen samples from material.
+If it is so, factory generate hash code by hash code function based on DNA hash code, timestamps, country and other 
+factors if it's necessary. For now we got first block for our chain. Then factory supplying further.
+Otherwise, product would be send back with obvious consequences. That scenario is applied to all participants of supply chain
+and each step is recorded in a dedicated block. And each next supplier can easily check if everything 
+is alright with resources.In this way the last end-consumer, but also everyone in the supply chain, 
+know everything about origins of a product. Hence we avoid unnecessary DNA-Sample verifications 
+which is very expensive, but it is still possible.
 
 ### Another existing solutions
 
