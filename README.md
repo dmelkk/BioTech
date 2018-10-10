@@ -1,7 +1,7 @@
 # BioTech
 ## Git for BioTech Hackaton
 
-Hello, everyone! We are the team "ZBC" and we want to present our view of supply chain for every marked product
+Hello, everyone! We are the team "Smells like Team Spirit" and we want to present our view of supply chain for every marked product
 
 Our presentation contains 3 main topics. First of all, we will tell about the problem we are going to solve. Then, we are going to speak about our solution. And, finally, we will compare our technology with simmilar popular companies projects.
 
